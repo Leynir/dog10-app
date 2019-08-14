@@ -13,11 +13,12 @@
     <img src="./assets/img/Cachorro quente tradicional.jpg" />
     <ion-card-header>
       <ion-card-content>
-        Um cachorro-quente (também conhecido pelo anglicismo hot dog) é uma comida típica dos Estados Unidos[1]
+        Um cachorro-quente (também conhecido pelo anglicismo hot dog) é uma comida típica dos Estados Unidos
          em que se coloca salsicha dentro de um pão sovado.
       </ion-card-content>
       <ion-card-subtitle>Preço: R$12,00</ion-card-subtitle>
-      <ion-button expand="block">Comprar</ion-button>
+      <ion-button expand="block" [routerLink]='["/finalizar"]'>
+          <ion-icon slot="start" name="card"></ion-icon>Comprar</ion-button>
     </ion-card-header>
    </ion-card>
 
@@ -30,10 +31,13 @@
             o maior sucesso em todo o mundo. Em um pão de massa de donut, o churros está no lugar da salsicha.
           </ion-card-content>
      <ion-card-subtitle>Preço: R$18,00</ion-card-subtitle>
-      <ion-button expand="block">Comprar</ion-button>
+      <ion-button expand="block" [routerLink]='["/finalizar"]'>
+          <ion-icon slot="start" name="card"></ion-icon>
+        Comprar</ion-button>
     </ion-card-header>
    </ion-card>
 
+   
    <ion-card>
     <ion-card-title>Torta de Cachorro Quente</ion-card-title>
     <img src="./assets/img/Torta--de-Cachorro-Quente.jpg" />
@@ -42,10 +46,12 @@
             É um cachorro quente tradicional mas em forma de torta
           </ion-card-content>
      <ion-card-subtitle>Preço: R$28,90</ion-card-subtitle>
-      <ion-button expand="block">Comprar</ion-button>
+      <ion-button expand="block" [routerLink]='["/finalizar"]'>
+          <ion-icon slot="start" name="card"></ion-icon>
+        Comprar</ion-button>
     </ion-card-header>
-   </ion-card>
-
+  </ion-card>
+  
 </ion-content>
 
 
